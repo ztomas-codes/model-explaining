@@ -1,0 +1,38 @@
+ONE to MANY
+1:N
+
+users 
+ID    NAME
+1     Tomáš Zbedina
+2     Tomáš Retard
+
+
+items
+ID      NAME      USER_ID 
+1       Stul      1
+2       Krabice   1 
+----------------------------
+
+MANY TO MANY
+N:N
+
+users
+ID    NAME
+1     Tomáš Zbedina
+2     Tomáš Retard
+
+
+items
+ID      NAME      
+1       Stul        
+2       Krabice    
+
+
+users_items
+USER_ID       ITEMS_ID
+1             1
+2             1
+
+
+
+INSERT INTO USERS (....) VALUES ("Tomáš")

@@ -1,0 +1,6 @@
+:root { color-scheme: dark; font-family: Arial, sans-serif; background: #11151c; color: #e8edf4; }
+body { margin: 0; }
+main { max-width: 760px; margin: 15vh auto; padding: 32px; }
+h1 { font-size: clamp(36px, 7vw, 64px); letter-spacing: -0.04em; }
+p { line-height: 1.7; color: #a9b8cb; }
+a { display: inline-block; margin: 24px 0; color: #8fd8ff; }
